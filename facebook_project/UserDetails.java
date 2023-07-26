@@ -37,8 +37,8 @@ public class UserDetails {
 			return null;
 		}
 	}
-	//	setter is used set/write/update are using
-//	================================here is update user id=======================================
+	//	           setter is used set/write/update are using
+	//	================================here is update user id=========================
 	public void setuser_Id(String user_Id) {
 		Scanner id = new Scanner(System.in);
 		System.out.println("Enter the user password any changes the id");
@@ -52,7 +52,7 @@ public class UserDetails {
 
 		}
 	}
-	//	==============================here is get user name ========================
+	//	==============================here is get user name =========================
 
 	public String getuser_Name() {
 		Scanner name = new Scanner(System.in);
@@ -68,7 +68,7 @@ public class UserDetails {
 			return null;
 		}
 	}
-//	================================here is set name=================================== 
+	//	================================here is set name=================================== 
 	public void setuser_Name(String user_Name) {
 		Scanner name = new Scanner(System.in);
 		System.out.println("Enter the user password any changes the user name");
@@ -97,7 +97,7 @@ public class UserDetails {
 			return null;
 		}
 	}
-//	===============================here is set gender=================================
+	//	===============================here is set gender===============================
 	public void setuser_Gender(String user_Gender ) {
 		Scanner gender = new Scanner(System.in);
 		System.out.println("Enter the user password any changes the gender Male and Female");
@@ -127,7 +127,7 @@ public class UserDetails {
 			return 0;
 		}
 	}
-//	=====================================here is set 
+	//	=====================================here is set =============================
 	public void setuser_Age(int user_Age) {
 		Scanner userage = new Scanner(System.in);
 		System.out.println("Enter the user password any changes the Age");
