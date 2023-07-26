@@ -23,8 +23,7 @@ public class UserDetails {
 	//	getter() method is uses  get/access/read
 	//	here is using password fatching/maching by user input
 
-	//	===========================here is provided user Id=======================================
-
+	//	===========================here is get user Id=======================================
 	public String getuser_Id() {
 		Scanner id = new Scanner(System.in);
 		System.out.println("Enter the user password get the id");
@@ -39,6 +38,7 @@ public class UserDetails {
 		}
 	}
 	//	setter is used set/write/update are using
+//	================================here is update user id=======================================
 	public void setuser_Id(String user_Id) {
 		Scanner id = new Scanner(System.in);
 		System.out.println("Enter the user password any changes the id");
@@ -52,7 +52,7 @@ public class UserDetails {
 
 		}
 	}
-	//	==============================here is provided user name ========================
+	//	==============================here is get user name ========================
 
 	public String getuser_Name() {
 		Scanner name = new Scanner(System.in);
@@ -68,6 +68,7 @@ public class UserDetails {
 			return null;
 		}
 	}
+//	================================here is set name=================================== 
 	public void setuser_Name(String user_Name) {
 		Scanner name = new Scanner(System.in);
 		System.out.println("Enter the user password any changes the user name");
@@ -81,7 +82,7 @@ public class UserDetails {
 
 		}
 	}
-	//	=========================here is provided gender================================
+	//	=========================here is get gender================================
 
 	public String getuser_Gender() {
 		Scanner gender = new Scanner(System.in);
@@ -96,6 +97,7 @@ public class UserDetails {
 			return null;
 		}
 	}
+//	===============================here is set gender=================================
 	public void setuser_Gender(String user_Gender ) {
 		Scanner gender = new Scanner(System.in);
 		System.out.println("Enter the user password any changes the gender Male and Female");
@@ -110,7 +112,7 @@ public class UserDetails {
 		}
 	}
 
-	//	=================================here is provided Age===============================
+	//	=================================here is get Age===============================
 
 	public int getuser_Age() {
 		Scanner userage = new Scanner(System.in);
@@ -125,6 +127,7 @@ public class UserDetails {
 			return 0;
 		}
 	}
+//	=====================================here is set 
 	public void setuser_Age(int user_Age) {
 		Scanner userage = new Scanner(System.in);
 		System.out.println("Enter the user password any changes the Age");

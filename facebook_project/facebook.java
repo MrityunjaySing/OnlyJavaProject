@@ -14,7 +14,7 @@ public class facebook {
 		this.user_Email = user_Email;
 		this.phone_Number = phone_Number;
 	}
-//	here is get the email
+//	========================here is get the email============================
 	public String getuser_Email() {
 		Scanner email = new Scanner(System.in);
 		System.out.println("Enter the user password get the email");
@@ -29,7 +29,7 @@ public class facebook {
 			return null;
 		}
 	}
-//	 here is email updation
+//	 ==========================here is set email =====================
 	public void setuser_Email(String user_Email) {
 		Scanner email = new Scanner(System.in);
 		System.out.println("Enter the user password any update the email");
@@ -43,7 +43,7 @@ public class facebook {
 			System.out.println("validation is not sucess");
 		}
 	}
-	
+//	==============================here is get phoneNumber====================================
 	public String getuser_phoneNumber() {
 		Scanner phoneNumber = new Scanner(System.in);
 		System.out.println("Enter the user password get the phone number");
@@ -58,6 +58,7 @@ public class facebook {
 			return null;
 		}
 	}
+//	========================here is set PhoneNumber==============================
 	public void setuser_phoneNumber(String phone_Number) {
 		Scanner phoneNumber = new Scanner(System.in);
 		System.out.println("Enter the user password update the phone number");
